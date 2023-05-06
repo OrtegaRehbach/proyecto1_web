@@ -1,6 +1,7 @@
 body {
+    position: relative;
+    margin: 0;
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
-    margin: 0;
 }

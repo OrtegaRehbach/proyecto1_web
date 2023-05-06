@@ -1,0 +1,17 @@
+.main {
+    position: relative;
+    margin: 0;
+}
+
+.navBar {
+    position: relative;
+    z-index: 2;
+}
+
+.slideShow {
+    position: absolute;
+    height: 680px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
