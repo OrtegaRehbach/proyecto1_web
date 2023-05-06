@@ -30,6 +30,9 @@
 .navButton {
     padding: 8px;
     border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 20px;
 }
 
 .loginButton, .signUpButton {

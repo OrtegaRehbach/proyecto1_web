@@ -1,5 +1,6 @@
 .container {
     position: relative;
+    white-space: nowrap;
 }
 
 .link {
@@ -9,7 +10,7 @@
     border-bottom: 4px solid transparent;
 }
 
-.link:hover {
+.container:hover .link {
     border-color: #fa4d4d;
 }
 
@@ -19,14 +20,25 @@
     fill: white;
 }
 
-.dropdownContainer {
+.dropdown {
     position: absolute;
     margin: 0;
     width: fit-content;
-    display: grid;
     background-color: white;
+    opacity: 0;
     border: none;
     border-radius: 8px ;
     border-top-left-radius: 0;
     box-shadow: 0 0 18px #00000026;
+    transition: opacity 1000ms;
+}
+
+.container:hover .dropdown {
+    opacity: 1;
+}
+
+.dropdownContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
 }
