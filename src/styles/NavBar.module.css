@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 24px 40px 0;
+    background: linear-gradient(180deg,#000000b3,#0000004d 72.92%,#0000);
+}
+
+.container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.upperNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    height: 48px;
+}
+
+.lowerNav {
+    display: flex;
+}
+
+.lowerNav a {
+    padding: 16px 16px 20px;
+}
+
+.navButton {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.loginButton, .signUpButton {
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.loginButton {
+    border-color: rgba(200, 201, 202, 1);
+    transition: 800ms;
+}
+
+.loginButton:hover, .navButton:hover {
+    background-color: rgba(200, 201, 202, 0.4);
+}
+
+.signUpButton {
+    background-color: rgba(224,7,7,1);
+    border-color: rgba(224,7,7,1);
+}

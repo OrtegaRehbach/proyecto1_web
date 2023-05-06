@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid transparent;
+}
+
+.link:hover {
+    border-color: #fa4d4d;
+}
+
+.link .downArrow {
+    margin: 0;
+    padding-left: 4px;
+    fill: white;
+}
+
+.dropdownContainer {
+    position: absolute;
+    margin: 0;
+    width: fit-content;
+    display: grid;
+    background-color: white;
+    border: none;
+    border-radius: 8px ;
+    border-top-left-radius: 0;
+    box-shadow: 0 0 18px #00000026;
+}
