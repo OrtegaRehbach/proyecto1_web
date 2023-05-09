@@ -1,5 +1,6 @@
 .container {
     height: 184px;
+    max-width: 256px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -9,12 +10,13 @@
     border-radius: 3px;
     cursor: pointer;
 }
-
+    
 .container:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .categoryImg {
+    position: relative;
     width: 40px;
     height: 40px;
     background-color: lightgray;

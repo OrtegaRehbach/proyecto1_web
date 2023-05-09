@@ -17,7 +17,7 @@ export default function() {
                     />
                 </a>
                 <div>Search Bar</div>
-                <a className={styles.navButton} href="">
+                <a className={`${styles.navButton} ${styles.marginLeftAuto}`} href="">
                     <span>Yelp for Business</span>
                 </a>
                 <a className={styles.navButton} href="">
