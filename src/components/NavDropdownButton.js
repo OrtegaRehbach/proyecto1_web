@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect } from "react";
 import styles from "../styles/NavDropdownButton.module.css"
+import DropdownMenuItem from "./DropdownMenuItem";
 
 export default function({title, href, items}) {
 
@@ -24,12 +25,12 @@ export default function({title, href, items}) {
             </a>
             <dialog className={styles.dropdown} open={open}>
                 <div className={styles.dropdownContainer}>
-                    <div>Item 1</div>
-                    <div>Item 2</div>
-                    <div>Item 3</div>
-                    <div>Item 4</div>
-                    <div>Item 5</div>
-                    <div>Item 6</div>
+                    <DropdownMenuItem text={"Item 1"}/>
+                    <DropdownMenuItem text={"Item 2"}/>
+                    <DropdownMenuItem text={"Item 3"}/>
+                    <DropdownMenuItem text={"Item 4"}/>
+                    <DropdownMenuItem text={"Item 5"}/>
+                    <DropdownMenuItem text={"Item 6"}/>
                 </div>
             </dialog>
         </div>

@@ -21,6 +21,7 @@
 
 .lowerNav {
     display: flex;
+    padding-left: 96px;
 }
 
 .lowerNav a {

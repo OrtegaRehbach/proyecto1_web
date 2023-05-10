@@ -33,3 +33,16 @@
 .show {
     display: block;
 }
+
+.slideContainer {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.contentWrapper {
+    padding: 0 32px;
+}
+
+.content {
+    display: flex;
+}
