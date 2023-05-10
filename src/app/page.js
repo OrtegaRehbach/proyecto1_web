@@ -27,6 +27,12 @@ export default function Home() {
           <PostCard posterImageSrc={placeHolderImg} postType={"picture"}/>
           <PostCard posterImageSrc={placeHolderImg} postType={"picture"}/>
         </div>
+        <div className={styles.showMoreContainer}>
+          <div className={styles.showMoreButton}>
+            <svg width="24" height="24" class="icon_svg"><path d="M12 15.25a1 1 0 01-.7-.29l-4.58-4.5A1.011 1.011 0 018.12 9L12 12.85 15.88 9a1 1 0 111.4 1.42L12.7 15a1 1 0 01-.7.25z"></path></svg>
+            <span>Show more activity</span>
+          </div>
+        </div>
       </div>
       <div className={styles.sectionContainer}>
         <h2 className={styles.title}>Categories</h2>

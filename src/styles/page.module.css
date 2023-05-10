@@ -55,6 +55,28 @@
     min-width: none;
 }
 
+.showMoreContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 48px 0;
+    text-decoration: none;
+    color: rgb(2, 122, 151);
+    fill: rgb(2, 122, 151);
+}
+
+.showMoreButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.showMoreButton:hover {
+    text-decoration: underline;
+}
+
 .categoryContainer {
     position: relative;
     display: flex;
@@ -77,7 +99,7 @@
     display: flex;
     justify-content: center;
     height: 415px;
-    padding: 60px 0;
+    padding: 60px 32px;
     background-color: #f7f7f7;
 }
 

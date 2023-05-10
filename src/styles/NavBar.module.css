@@ -63,3 +63,36 @@
     background-color: rgba(224,7,7,1);
     border-color: rgba(224,7,7,1);
 }
+
+.searchBarContainer {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.searchInput, .searchLocation, .searchButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+}
+
+.searchInput input, .searchLocation input {
+    border: none;
+    outline: none;
+    margin: 0 16px;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.searchButton {
+    padding: 16px;
+    background-color: rgba(224,7,7,1);
+    fill: white;
+    cursor: pointer;
+}
