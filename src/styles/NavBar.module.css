@@ -4,6 +4,7 @@
     color: white;
     padding: 24px 40px 0;
     background: linear-gradient(180deg,#000000b3,#0000004d 72.92%,#0000);
+    min-width: 0;
 }
 
 .container a {

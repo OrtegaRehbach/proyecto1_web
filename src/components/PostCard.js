@@ -17,12 +17,19 @@ export default function({postType, posterName, posterImageSrc, placeName, placeI
     const getPostContent = () => {
         if (postType === "picture") {
             return (
-                <Image
-                    src={posterImageSrc}
-                    alt="Posted picture"
-                    fill
-                    style={{objectFit: "cover"}}
-                />
+                <div className={styles.simplePostContent}>
+                    <a className={styles.placeName}>
+                        <span>place Name</span>
+                    </a>
+                    <div className={styles.postImageContainer}>
+                        <Image
+                            src={posterImageSrc}
+                            alt="Posted picture"
+                            fill
+                            style={{objectFit: "cover"}}
+                        />
+                    </div>
+                </div>
             );
         } else {
             return(<div></div>);

@@ -24,6 +24,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: gray;
+    cursor: pointer;
 }
 
 .postHeaderText {
@@ -33,10 +34,28 @@
 
 .posterName {
     font-weight: bold;
+    cursor: pointer;
+}
+
+.posterName:hover {
+    text-decoration: underline;
 }
 
 .postContent {
     position: relative;
+    width: 100%;
+    height: 100%;
+}
+.posteImageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.simplePostContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
